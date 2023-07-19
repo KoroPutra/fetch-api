@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  padding: 20px 64px 20px 64px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #ffd6a5;
+  align-items: center;
+}
+
+.company-logo {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.nav-link {
+  margin: 0px 15px 0px 15px;
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  margin: 20px 10px;
+}
+
+.film-thumbnail {
+  width: 100%;
+  height: 130px;
+}
+
+.film-title {
+  font-weight: 700;
+  font-size: 18px;
+  height: 40px;
+  text-align: center;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.film-description {
+  height: 100px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  padding: 10px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  padding: 4px 6px;
+  margin: 2px 4px;
+}
+
+.watch-button {
+  background-color: red;
+  font-weight: 700;
+  color: white;
+}
+
+.watch-button:hover {
+  background-color: white;
+  color: red;
+}
+
+.detail-button {
+  background-color: white;
+  font-weight: 700;
+  color: black;
+}
+
+.detail-button:hover {
+  background-color: gray;
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
